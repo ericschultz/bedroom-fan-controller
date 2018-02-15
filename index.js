@@ -1,6 +1,6 @@
 const mqtt = require('mqtt')
 const client  = mqtt.connect('mqtt://eric-old-laptop')
-const gpio = require('onoff').Gpio
+const Gpio = require('onoff').Gpio
 const fanOnOff = new Gpio(1, 'out')
 const availability_topic = 'bedroom_fan/presence'
 const command_topic = 'bedroom_fan/on/set'
