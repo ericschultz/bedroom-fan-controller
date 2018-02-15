@@ -17,7 +17,7 @@ client.on('message', function (topic, message) {
     }
 
     if (message == 'OFF'){
-        fanOnOff.writeSync(2)
+        fanOnOff.writeSync(0)
     }
 
   })
