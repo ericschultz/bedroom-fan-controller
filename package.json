@@ -1,0 +1,24 @@
+{
+  "name": "bedroom-fan-controller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericschultz/bedroom-fan-controller.git"
+  },
+  "author": "",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ericschultz/bedroom-fan-controller/issues"
+  },
+  "homepage": "https://github.com/ericschultz/bedroom-fan-controller#readme",
+  "dependencies": {
+    "mqtt": "^2.15.2",
+    "onoff": "^1.2.0"
+  }
+}
